@@ -68,7 +68,7 @@
                     
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active " id="menuLink1" href="#">Início</a>
+                            <a class="nav-link active " id="menuLink1" href="#">Página Inicial</a>
                             <a class="nav-link  " id="menuLink2" href="#">Diagnóstico</a>
                             <a class="nav-link  " id="menuLink3" href="#">Tratamento</a>
                             <a class="nav-link  " id="menuLink4" href="#">Sobre</a>
