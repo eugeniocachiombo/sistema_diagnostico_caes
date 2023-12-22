@@ -1,3 +1,4 @@
+var containerIMG = document.getElementById("containerIMG");
 
 document.addEventListener("DOMContentLoaded", function () {
     AnimatedIMG1();

@@ -13,24 +13,22 @@
                     </ul>
                 </div>
 
-                <div class="col pt-2 ">
+                <div class="col pt-2">
                     <p style="border-bottom: 3px solid white; width: 150px"><b>Atendimento</b></p>
                     <p>Segunda-feira à Sexta-feira Aberto das 08:00 até 20:30</p>
                     <p>Sábado Aberto das 07:10 até 14:20 </p>
                 </div>
 
-                <div class="col pt-2 ">
+                <div class="col pt-2">
                     <p style="border-bottom: 3px solid white; width: 150px"><b>Localização</b></p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis atque iste placeat asperiores
-                    consequatur, eum nisi dolorum similique obcaecati dignissimos voluptas tenetur porro earum molestias
-                    deleniti cum sequi quidem quaerat!
+                    <i class="fas fa-map-marker-alt"></i> Município da Samba - Morro Bento
                 </div>
 
-                <div class="col pt-2 ">
+                <div class="col pt-2">
                     <p style="border-bottom: 3px solid white; width: 150px"><b>Contactos</b></p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis atque iste placeat asperiores
-                    consequatur, eum nisi dolorum similique obcaecati dignissimos voluptas tenetur porro earum molestias
-                    deleniti cum sequi quidem quaerat!
+                    <i class="fas fa-envelope"></i> veter@gmail.com  <br>
+                    <i class="fas fa-phone"></i> +244 921 212 212 <br>
+                    <i class="fas fa-phone"></i> +244 991 212 212
                 </div>
             </div>
 

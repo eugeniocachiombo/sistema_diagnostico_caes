@@ -27,18 +27,17 @@
         <div class="container " style="min-height: inherit">
             <center class="d-flex justify-content-center align-items-center" style="min-height: inherit">
                 <div class="d-md-table">
-                    <div class="col ">
-                        <hr style="padding: 5px; background: white; color: white">
+                    <div class="col pt-5">
+                        <hr class="d-none" style="padding: 5px; background: white; color: white">
                     </div>
 
                     <div class="col d-none d-md-block justify-content-center align-items-end"
-                        style="min-height: inherit">
-                        <i class="fas fa-dog display-3"></i>
+                        style="min-height: inherit; padding: 30px; border: 10px solid white; border-radius: 50%; width: 50%">
                         <i class="fas fa-clinic-medical display-3"></i>
                     </div>
 
-                    <div class="col d-flex d-md-none justify-content-start align-items-end" style="min-height: inherit">
-                        <i class="fas fa-dog display-3"></i>
+                    <div class="col d-flex d-md-none justify-content-center align-items-end" 
+                        style="min-height: inherit; padding: 30px; border: 10px solid white; border-radius: 50%; width: 50%">
                         <i class="fas fa-clinic-medical display-3"></i>
                     </div>
 
