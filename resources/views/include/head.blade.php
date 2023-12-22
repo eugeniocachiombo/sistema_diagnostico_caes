@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="../assets/css/inputs.css">
     <!-- <link rel="stylesheet" href="../assets/css/menu.css"> -->
     <script src="../assets/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
-    <script src="../assets/jquery/jquery.js"></script>
+     <!--<script src="../assets/jquery/jquery.js"></script> -->
 
     <style>
-        #menuLink1:hover, #menuLink2:hover, #menuLink3:hover, #menuLink4:hover {
+        #home:hover, #diganostic:hover, #treatment:hover, #about:hover {
             background: cornflowerblue;
             color: white;
         }
@@ -67,13 +67,36 @@
                     
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active " id="menuLink1" href="#">Página Inicial</a>
-                            <a class="nav-link  " id="menuLink2" href="#">Diagnóstico</a>
-                            <a class="nav-link  " id="menuLink3" href="#">Tratamento</a>
-                            <a class="nav-link  " id="menuLink4" href="#">Sobre</a>
+                            <a class="nav-link  " id="home" href="/">Página Inicial</a>
+                            <a class="nav-link  " id="diganostic" href="/diagnostico">Diagnóstico</a>
+                            <a class="nav-link  " id="treatment" href="/tratamento">Tratamento</a>
+                            <a class="nav-link  " id="about" href="#">Sobre</a>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+
+    <script>
+        let home = document.querySelector("#home");
+        let diganostic = document.querySelector("#diganostic");
+        let treatment = document.querySelector("#treatment");
+        let about = document.querySelector("#about");
+        let path = window.location.pathname;
+
+        switch (path) {
+            case "/":
+                home.classList.add("active");
+            break;
+
+            case "/diagnostico":
+                diganostic.classList.add("active");
+            break;
+        
+            default:
+            
+            break;
+        }
+        console.log(path);
+    </script>
