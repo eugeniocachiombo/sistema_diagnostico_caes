@@ -4,13 +4,14 @@
     <div class="container d-flex align-items-center" style="min-height: inherit">
         <div class="row">
             <div class="col">
-                <h1 class="pt-4 pb-4">Seja Bem-vindo ao nosso sistema</h1>
+                <h1 class="pt-4 pb-4">Seja Bem-vindo </h1>
                 <dl>
                     <dt>Diagnóstico</dt>
                     <dd>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, omnis! Fugit non, quod
-                        consequuntur veritatis sapiente magni provident, harum sit porro, quam minus mollitia
-                        perspiciatis doloribus! Quaerat cumque possimus explicabo.
+                        Diagnóstico é a identificação de uma doença ou condição médica com base nos sintomas
+                        apresentados pelo paciente (animal), exames laboratoriais, imagens médicas, e outras informações
+                        relevantes. O diagnóstico é crucial para o desenvolvimento de um plano de tratamento adequado.
+                        
                         <div class="container pt-4">
                             <div class="row">
                                 <div class="col-8 col-md-3 pt-4">
@@ -34,6 +35,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        Atravez deste sistema é possível identificar certas doenças de acordo aos sintomas apresentados pelo 
+                        animal de estimação.
                     </dd>
 
                     <dt>Tratamento</dt>

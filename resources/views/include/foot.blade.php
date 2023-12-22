@@ -1,20 +1,4 @@
-<style>
-.footerDetailsAnimated {
-    animation: fadeInUp 2s;
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-</style>
+<link rel="stylesheet" href="../assets/css/animatedFooter.css">
 
 <footer>
     <div class="container d-flex justify-content-center align-items-center" style="min-height: 30vh">
@@ -50,7 +34,7 @@
                 </div>
             </div>
 
-            <div class="row pt-3 pb-4">
+            <div class="row pt-3 pb-4" id="footerSistemInfo">
                 <hr>
                 <center>Sistema de Diagnóstico de Doenças Caninas. Todos direitos reservados</center>
             </div>
@@ -59,21 +43,7 @@
 </footer>
 
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var animated = document.getElementById("footerDetails");
-
-        var observer = new IntersectionObserver(function(entries) {
-            if (entries[0].isIntersecting) {
-                animated.classList.add("footerDetailsAnimated");
-            } else {
-                animated.classList.remove("footerDetailsAnimated");
-            }
-        });
-
-        observer.observe(animated);
-    });
-</script>
+<script src="../assets/js/animatedFooter.js"></script>
 </body>
 
 </html>
