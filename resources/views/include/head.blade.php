@@ -41,12 +41,12 @@
                         <i class="fas fa-clinic-medical display-3"></i>
                     </div>
 
-                    <div class="col d-none d-md-block justify-content-center align-items-center"
+                    <div class="col pt-2 d-none d-md-block justify-content-center align-items-center"
                         style="min-height: inherit">
                         <b>Sistema de Diagnóstico de Doenças Caninas</b>
                     </div>
 
-                    <div class="col d-flex d-md-none justify-content-start align-items-center"
+                    <div class="col pt-2 d-flex d-md-none justify-content-start align-items-center"
                         style="min-height: inherit; font-size: 15px">
                         <b>Sistema de Diagnóstico de Doenças Caninas</b>
                     </div>

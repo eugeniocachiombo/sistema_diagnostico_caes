@@ -11,28 +11,52 @@
             </div>
         </div>
 
-        <div class="row">
-            <form action="" class="row">
-                <label for="">Sintomas</label>
-                <div class="col">
-                    <select class="form-control" name="" id="">
-                        <option value="">Doença 1</option>
+        <form action="" class="">
+            <div class="row g-2">
+                <label for="">Quais são os sintomas do cachorro?</label>
+                <div class="col-8 col-md-4 d-flex align-items-center">
+                    <select class="form-control" name="" id="" style="background: rgb(72, 103, 161); color: white">
+                        <option value="">Selecione o sintoma... </option>
                     </select>
+                    <i class="fas fa-chevron-circle-down" style="color: white; position: relative; left: -32px;"></i>
                 </div>
 
-                <div class="col">
-                    <select class="form-control" name="" id="">
-                        <option value="">Doença 1</option>
-                    </select>
+                <div class="col-8 col-md-4 d-flex align-items-center">
+                    <select class="form-control" name="" id="" style="background: rgb(72, 103, 161); color: white">
+                        <option value="">Selecione o sintoma... </option>
+                    </select> <i class="fas fa-chevron-circle-down"
+                        style="color: white; position: relative; left: -32px;"></i>
                 </div>
-                
-                <div class="col">
-                    <select class="form-control" name="" id="">
-                        <option value="">Doença 1</option>
-                    </select>
+
+                <div class="col-8 col-md-4 d-flex align-items-center">
+                    <select class="form-control" name="" id="" style="background: rgb(72, 103, 161); color: white">
+                        <option value="">Selecione o sintoma... </option>
+                    </select> <i class="fas fa-chevron-circle-down"
+                        style="color: white; position: relative; left: -32px;"></i>
                 </div>
-            </form>
-        </div>
+            </div>
+
+            <div class="row pt-3">
+                <div class="col-6 col-md-3 d-flex align-items-center">
+                    <button type="submit" name="btnDiagnostic" class="btnDiagnostic form-control">
+                        <b>Diagnosticar</b>
+                    </button> <i class="fas fa-search" style="color: white; position: relative; left: -32px;"></i>
+                </div>
+            </div>
+
+
+            <div class="row pt-3">
+                <div class="col ">
+                    <hr style="padding: 5px">
+                    <b>Resultado do diagnóstico</b> <br>
+                    Este cachorro está com: <b class="text-danger">Tosse dos canis</b> <br>
+                    <b>O que faz: </b> <b class="text-danger">Tosse dos canis</b> é uma doença que <b
+                        class="text-danger">causa enflamação das vias respiratórias.</b> <br>
+                    <b>Causa da doença:</b> <b class="text-danger">Complexo de vírus e bactérias, como o vírus da
+                        parainfluenza e a bactéira Bordetella bronchiseptica.</b>
+                </div>
+            </div>
+        </form>
     </div>
 </main>
 
