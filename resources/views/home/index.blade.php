@@ -1,4 +1,4 @@
-<?php include "../resources/views/include/head.blade.php"; ?>
+@include("include.head") 
 <link rel="stylesheet" href="../assets/css/animatedIMG.css">
 <title>Página Inicial</title>
 
@@ -77,4 +77,4 @@
 </main>
 
 <script src="../assets/js/animatedIMG.js"></script>
-<?php include "../resources/views/include/foot.blade.php"; ?>
+@include("include.foot")
