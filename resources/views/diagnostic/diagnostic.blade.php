@@ -1,4 +1,4 @@
-<?php include "../resources/views/include/head.blade.php"; ?>
+@include("include.head") 
 <link rel="stylesheet" href="../assets/css/animatedIMG.css">
 <title>Diagnóstico</title>
 
@@ -44,9 +44,8 @@
                 </div>
             </div>
 
-
             <div class="row pt-3">
-                <div class="col ">
+                <div class="col d-none">
                     <hr style="padding: 5px">
                     <b>Resultado do diagnóstico</b> <br>
                     Este cachorro está com: <b class="text-danger">Tosse dos canis</b> <br>
@@ -55,10 +54,15 @@
                     <b>Causa da doença:</b> <b class="text-danger">Complexo de vírus e bactérias, como o vírus da
                         parainfluenza e a bactéira Bordetella bronchiseptica.</b>
                 </div>
+
+                <div class="col">
+                <hr style="padding: 5px">
+                <b>O Resultado do diagnóstico será exibido aqui</b>
+                </div>
             </div>
         </form>
     </div>
 </main>
 
 <script src="../assets/js/animatedIMG.js"></script>
-<?php include "../resources/views/include/foot.blade.php"; ?>
+@include("include.foot") 
