@@ -58,15 +58,15 @@
             </div>
 
             <div class="row pt-3">
-                @if (!empty($message) && $message == true)
-                    <div class="col">
+                @if (!empty($message))
+                    <div class="col pb-5">
                         <hr style="padding: 5px">
                         <b>Resultado do diagnóstico</b> <br>
-                        Este cachorro está com: <b class="text-danger">Tosse dos canis</b> <br>
-                        <b>O que faz: </b> <b class="text-danger">Tosse dos canis</b> é uma doença que <b
-                            class="text-danger">causa enflamação das vias respiratórias.</b> <br>
-                        <b>Causa da doença:</b> <b class="text-danger">Complexo de vírus e bactérias, como o vírus da
-                            parainfluenza e a bactéira Bordetella bronchiseptica.</b>
+                        Este cachorro está com: <b class="text-danger">{{ $message[0]->nome_sintoma }}</b> <br>
+                        <b>O que faz << Consequência >> : </b>  
+                        <b class="text-danger">{{ $message[0]->consequencia_doenca }}.</b> <br>
+                        <b>Causa da doença:</b> 
+                        <b class="text-danger">{{ $message[0]->causa_doenca }}.</b>
                     </div>
                 @else
                     <div class="col">
