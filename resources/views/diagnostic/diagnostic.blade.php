@@ -11,12 +11,12 @@
             </div>
         </div>
 
-        <form action="/diagnostico" class="" method="post">
+        <form action="/diagnostico" class=" needs-validation" method="post">
             @csrf
             <div class="row g-2">
                 <label for="">Quais são os sintomas do cachorro?</label>
                 <div class="col-8 col-md-4 d-flex align-items-center">
-                    <select class="form-control" name="symptomA" id="symptomA"
+                    <select required class="form-control is-invalid" name="symptomA" id="symptomA"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
                         @foreach ($symptoms as $item)
@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="col-8 col-md-4 d-flex align-items-center">
-                    <select class="form-control" name="symptomB" id="symptomB"
+                    <select required class="form-control" name="symptomB" id="symptomB"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
                         @foreach ($symptoms as $item)
@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="col-8 col-md-4 d-flex align-items-center">
-                    <select class="form-control" name="symptomC" id="symptomC"
+                    <select required class='form-control' name="symptomC" id="symptomC"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
                         @foreach ($symptoms as $item)
@@ -51,8 +51,10 @@
 
             <div class="row pt-3">
                 <div class="col-6 col-md-3 d-flex align-items-center">
-                    <button type="submit" name="btnDiagnostic" name="btnDiagnostic" class="btnDiagnostic form-control">
-                        <b>Diagnosticar</b>
+                    <button type="submit" name="btnDiagnostic" name="btnDiagnostic" class="form-control btnDiagnostic no-validation">
+                        <b><span id="text_to_diagnostic">Diagnosticar</span></b>
+                        <span id="spinner" class="spinner-grow spinner-grow-sm" role="status"
+                        aria-hidden="true"></span>
                     </button> <i class="fas fa-search" style="color: white; position: relative; left: -32px;"></i>
                 </div>
             </div>
@@ -89,5 +91,5 @@
     </div>
 </main>
 
-<script src="../assets/js/animatedIMG.js"></script>
+<script src="../assets/js/required_filds.js"></script>
 @include('include.foot')

@@ -98,5 +98,4 @@
             
             break;
         }
-        console.log(path);
     </script>
