@@ -2,3 +2,7 @@
     background: rgb(119, 179, 30);
     color: white;
 }
+
+select:hover{
+    cursor: pointer;
+}
