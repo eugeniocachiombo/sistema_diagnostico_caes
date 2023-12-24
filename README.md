@@ -7,7 +7,7 @@
 
 2. Leptospirose:
    - Consequência: Bacteriana, ataca rins e fígado.
-   - Sintomas: Febre, vômito, dor abdominal, icterícia.
+   - Sintomas: Febre, vômito, dor abdominal.
  - Causa: Bactéria do gênero Leptospira, geralmente transmitida pela urina de animais infectados.
 
 3. Tosse dos Canis (Traqueobronquite Infecciosa):
@@ -81,3 +81,4 @@ Doenças mencionadas:
 - Fraqueza
 - Distensão abdominal
 - Colapso
+- Falta de apetite
