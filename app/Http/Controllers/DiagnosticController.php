@@ -29,7 +29,7 @@ class DiagnosticController extends Controller
             left outer join doenca 
             on doenca.id_combinacao_sintoma = combinacao_sintoma.id_combinacao_sintoma
             where sintomaA = ? and sintomaB = ? and sintomaC = ?', 
-            [1,2,3]
+            [$symptomA,$symptomB,$symptomC]
         );
         $message = $result;
         return view('diagnostic/diagnostic', compact("symptoms", "message"));

@@ -62,7 +62,7 @@
                     <div class="col pb-5">
                         <hr style="padding: 5px">
                         <b>Resultado do diagnóstico</b> <br>
-                        Este cachorro está com: <b class="text-danger">{{ $message[0]->nome_sintoma }}</b> <br>
+                        Este cachorro está com: <b class="text-danger">{{ $message[0]->nome_doenca }}</b> <br>
                         <b>O que faz << Consequência >> : </b>  
                         <b class="text-danger">{{ $message[0]->consequencia_doenca }}.</b> <br>
                         <b>Causa da doença:</b> 
