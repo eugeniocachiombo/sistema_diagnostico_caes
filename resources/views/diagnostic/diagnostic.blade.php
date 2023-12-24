@@ -16,7 +16,7 @@
             <div class="row g-2">
                 <label for="">Quais são os sintomas do cachorro?</label>
                 <div class="col-8 col-md-4 d-flex align-items-center">
-                    <select class="form-control" name="symptom1" id="symptom1"
+                    <select class="form-control" name="symptomA" id="symptomA"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
                     </select>
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="col-8 col-md-4 d-flex align-items-center">
-                    <select class="form-control" name="symptom2" id="symptom2"
+                    <select class="form-control" name="symptomB" id="symptomB"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
                     </select> <i class="fas fa-chevron-circle-down"
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="col-8 col-md-4 d-flex align-items-center">
-                    <select class="form-control" name="symptom3" id="symptom3"
+                    <select class="form-control" name="symptomC" id="symptomC"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
                     </select> <i class="fas fa-chevron-circle-down"

@@ -7,14 +7,14 @@ use App\Models\Diagnostic;
 
 class DiagnosticController extends Controller
 {
-    function Index() {
+    function index() {
         return view('diagnostic/diagnostic');
     }
 
-    function Check(Request $request){
-        $symptom1 = $request->input("symptom1");
-        $symptom2 = $request->input("symptom2");
-        $symptom3 = $request->input("symptom3");
+    function check(Request $request){
+        $symptomA = $request->input("symptomA");
+        $symptomB = $request->input("symptomB");
+        $symptomC = $request->input("symptomC");
         $message = true;
         return view('diagnostic/diagnostic', compact("message"));
     }

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    function Index () {
+    function index () {
         return view('home/index');
     }
 }
