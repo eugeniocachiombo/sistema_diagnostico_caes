@@ -1,64 +1,83 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+ Doenças de cães, suas características, causa e sintomas:
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+1. Parvovirose Canina:
+   - Consequência: Afeta o sistema gastrointestinal.
+   - Sintomas:  Vômito, diarreia sanguinolenta, letargia.
+- Causa: Vírus parvovírus canino.
 
-## About Laravel
+2. Leptospirose:
+   - Consequência: Bacteriana, ataca rins e fígado.
+   - Sintomas: Febre, vômito, dor abdominal, icterícia.
+ - Causa: Bactéria do gênero Leptospira, geralmente transmitida pela urina de animais infectados.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+3. Tosse dos Canis (Traqueobronquite Infecciosa):
+   - Consequência: Inflamação das vias respiratórias.
+   - Sintomas: Tosse persistente, espirros, secreção nasal.
+  - Causa: Complexo de vírus e bactérias, como o vírus da parainfluenza e a bactéria Bordetella bronchiseptica.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+4. Doença de Lyme:
+   - Consequência: Transmitida por carrapatos, afeta articulações.
+   - Sintomas: Claudicação, febre, letargia.
+   - Causa: Bactéria Borrelia burgdorferi, transmitida por carrapatos.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+5. Rabdovirose Canina (Raiva):
+   - Consequência: Viral, afeta o sistema nervoso.
+   - Sintomas: Mudanças de comportamento, agressividade, paralisia.
+   - Causa: Vírus da raiva, geralmente transmitido por mordida de animais infectados.
 
-## Learning Laravel
+6. Dermatite Alérgica à Picada de Pulgas (DAPP):
+   - Consequência: Reação alérgica à saliva de pulgas.
+   - Sintomas: Coceira intensa, lambidas excessivas, perda de pelo.
+- Causa: Reação alérgica à saliva de pulgas.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+7. Ehrlichiose Canina:
+   - Consequência: Transmitida por carrapatos, afeta células sanguíneas.
+   - Sintomas: Febre, letargia, perda de apetite.
+   - Causa: Bactéria Ehrlichia canis, transmitida por carrapatos.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+8. Insuficiência Cardíaca Congestiva (ICC):
+   - Consequência: Problemas no coração resultando em acúmulo de fluido.
+   - Sintomas: Tosse, dificuldade respiratória, letargia.
+ - Causa: Geralmente resulta de doenças cardíacas pré-existentes.
 
-## Laravel Sponsors
+9. Cinomose:
+   - Consequência: Viral, afeta sistema respiratório e nervoso.
+   - Sintomas: Secreção nasal, tosse, convulsões.
+   - Causa: Vírus da cinomose canina.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+10. Pancreatite Canina:
+    - Consequência: Inflamação do pâncreas.
+    - Sintomas: Dor abdominal, vômito, falta de apetite.
+  - Causa: Causas variadas, incluindo dieta rica em gordura, trauma ou predisposição genética.
 
-### Premium Partners
+11. Hemangiossarcoma:
+    - Consequência: Câncer nos vasos sanguíneos.
+    - Sintomas: Fraqueza, distensão abdominal, colapso.
+- Causa: Desenvolvimento anormal de células sanguíneas, muitas vezes associado ao envelhecimento.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+Doenças mencionadas:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Vômito
+- Diarreia sanguinolenta
+- Letargia
+- Febre
+- Dor abdominal
+- Icterícia
+- Tosse persistente
+- Espirros
+- Secreção nasal
+- Claudicação
+- Mudanças de comportamento
+- Agressividade
+- Paralisia
+- Coceira intensa
+- Lambidas excessivas
+- Perda de pelo
+- Perda de apetite
+- Dificuldade respiratória
+- Tosse
+- Convulsões
+- Fraqueza
+- Distensão abdominal
+- Colapso
