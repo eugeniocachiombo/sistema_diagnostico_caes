@@ -19,6 +19,9 @@
                     <select class="form-control" name="symptomA" id="symptomA"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
+                        @foreach ($symptoms as $item)
+                            <option value="{{ $item->id_sintoma }}">{{ $item->nome_sintoma }}</option>
+                        @endforeach
                     </select>
                     <i class="fas fa-chevron-circle-down" style="color: white; position: relative; left: -32px;"></i>
                 </div>
@@ -27,6 +30,9 @@
                     <select class="form-control" name="symptomB" id="symptomB"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
+                        @foreach ($symptoms as $item)
+                            <option value="{{ $item->id_sintoma }}">{{ $item->nome_sintoma }}</option>
+                        @endforeach
                     </select> <i class="fas fa-chevron-circle-down"
                         style="color: white; position: relative; left: -32px;"></i>
                 </div>
@@ -35,6 +41,9 @@
                     <select class="form-control" name="symptomC" id="symptomC"
                         style="background: rgb(72, 103, 161); color: white">
                         <option value="">Selecione o sintoma... </option>
+                        @foreach ($symptoms as $item)
+                            <option value="{{ $item->id_sintoma }}">{{ $item->nome_sintoma }}</option>
+                        @endforeach
                     </select> <i class="fas fa-chevron-circle-down"
                         style="color: white; position: relative; left: -32px;"></i>
                 </div>
