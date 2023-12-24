@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 class DiagnosticController extends Controller
 {
     function index() {
-        $symptoms = DB::select('select * from sintoma');
+        $symptoms = DB::select('select * from sintoma order by nome_sintoma asc');
         return view('diagnostic/diagnostic', compact("symptoms"));
     }
 
