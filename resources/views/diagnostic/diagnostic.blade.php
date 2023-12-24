@@ -51,7 +51,7 @@
 
             <div class="row pt-3">
                 <div class="col-6 col-md-3 d-flex align-items-center">
-                    <button type="submit" name="btnDiagnostic" name="btnDiagnostic" class="form-control btnDiagnostic no-validation">
+                    <button type="submit" name="btnDiagnostic" name="btnDiagnostic" class="no-validation form-control btnDiagnostic">
                         <b><span id="text_to_diagnostic">Diagnosticar</span></b>
                         <span id="spinner" class="spinner-grow spinner-grow-sm" role="status"
                         aria-hidden="true"></span>
@@ -66,7 +66,7 @@
                             <hr style="padding: 5px">
                             <b>Resultado do diagnóstico</b> <br>
                             Este cachorro está com: <b class="text-danger">{{ $message[0]->nome_doenca }}</b> <br>
-                            <b>O que faz << Consequência>> : </b>
+                            <b>O que faz '<< Consequência >>' : </b>
                             <b class="text-danger">{{ $message[0]->consequencia_doenca }}.</b> <br>
                             <b>Causa da doença:</b>
                             <b class="text-danger">{{ $message[0]->causa_doenca }}.</b>
