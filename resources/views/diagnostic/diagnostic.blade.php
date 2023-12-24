@@ -58,17 +58,27 @@
             </div>
 
             <div class="row pt-3">
-                @if (!empty($message))
-                    <div class="col pb-5">
-                        <hr style="padding: 5px">
-                        <b>Resultado do diagnóstico</b> <br>
-                        Este cachorro está com: <b class="text-danger">{{ $message[0]->nome_doenca }}</b> <br>
-                        <b>O que faz << Consequência >> : </b>  
-                        <b class="text-danger">{{ $message[0]->consequencia_doenca }}.</b> <br>
-                        <b>Causa da doença:</b> 
-                        <b class="text-danger">{{ $message[0]->causa_doenca }}.</b>
-                    </div>
-                @else
+                @isset($message)
+                    @if (!empty($message))
+                        <div class="col pb-5">
+                            <hr style="padding: 5px">
+                            <b>Resultado do diagnóstico</b> <br>
+                            Este cachorro está com: <b class="text-danger">{{ $message[0]->nome_doenca }}</b> <br>
+                            <b>O que faz << Consequência>> : </b>
+                            <b class="text-danger">{{ $message[0]->consequencia_doenca }}.</b> <br>
+                            <b>Causa da doença:</b>
+                            <b class="text-danger">{{ $message[0]->causa_doenca }}.</b>
+                        </div>
+                    @else
+                        <div class="col pb-5">
+                            <hr style="padding: 5px">
+                            <b>Resultado do diagnóstico</b> <br>
+                            <b class="text-danger">Infelizmente não foi encontrado doenças com estes sintomas, por favor especifique novamente.</b>
+                        </div>
+                    @endif
+                @endisset
+
+                @if (!isset($message))
                     <div class="col">
                         <hr style="padding: 5px">
                         <b>O Resultado do diagnóstico será exibido aqui</b>
